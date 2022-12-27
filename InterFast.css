@@ -1,86 +1,6 @@
 
-/* reset the browser to make sure the result looks the same in different browser */
- html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-body {
-    line-height:1;
-}
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
-}
-nav ul {
-    list-style:none;
-}
-blockquote, q {
-    quotes:none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-/* change colours to suit your needs */
 
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
 
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-del {
-    text-decoration: line-through;
-}
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-hr {
-    display:block;
-    height:1px;
-    border:0;
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-input, select {
-    vertical-align:middle;
-}
 
 * {
   text-decoration: none;
@@ -92,12 +12,14 @@ input, select {
 body{
   background: white ;
 }
+
 .intro{
   position: relative;
   width: 100%;
   height: 40vh;
   background: white;
 }
+
 nav .Triqui-interpreter {
   font-family: Bodoni;
   font-weight: bold;
@@ -134,9 +56,11 @@ nav ul li a {
   scroll-behavior: smooth;
   
 }
+
 nav ul li a:hover {
 color:rgb(229, 6, 6);
 }
+
 .myimage{
   width: 60%;
   height: 85%;
@@ -144,6 +68,7 @@ color:rgb(229, 6, 6);
   bottom: 0;
   right: 100px;
 }
+
 .myimage img{
   height: 100%;
   width: 80%;
@@ -157,21 +82,29 @@ color:rgb(229, 6, 6);
   text-align:center ;
   /* margin-left: 5%; */
 }
-.statement h1{
+
+.statement h1 {
   font-family: bodoni;
   font-style: italic;
   font-size: 60px;
   color: black;
   margin-bottom: 25px;
   margin-top: -90px;
-  
-
 }
+
+.statement h2 {
+  font-family: bodoni;
+  font-style: italic;
+  font-size: 40px;
+  color: black;
+}
+
 .statement h1 span{
 color:crimson;
 line-height: 10px;
 margin-top: 10%;
 }
+
 .statement p{
   font-style: italic;
   font-weight: normal;
@@ -179,6 +112,7 @@ margin-top: 10%;
   margin-top: 5px;
   margin-bottom: 20px; 
 }
+
 .theimage img {
   border-radius: 50%;
   margin: auto;
@@ -188,6 +122,7 @@ margin-top: 10%;
   position: relative;top: -120px;
  
 }
+
 button {
   background-color: #0da3d5; 
   margin-bottom: 10px;
@@ -201,89 +136,11 @@ button {
   margin: 6px 3px;
   cursor: pointer;
 }
-button a{
+
+button a {
   color: white;
   font-weight: bold;
 }
-
-/* .aboutme{
-  height: 400px;
-  width: 1265px;
-  background: #e7eaee ; 
-  scroll-behavior: smooth;
-  text-align: left;
-  position: absolute;
-  margin-left: 200px;
-  margin-right: 500px;
-  margin-top: 350px;
-  border-radius: 25px;
-}  */
- .aboutme{
- /* position: relative; */
- scroll-behavior: smooth;
-  border-radius: 5px;
-  padding-left: 5px;
-  height: 200px;
-  width: relative;
-  /* position: absolute; */
-  background:#f3f5f8 ; 
-  text-align: left;
-  margin-left:50px;
-  margin-right: 50px; 
-  /* margin-bottom: 30px; */
-}  
-.aboutme h1{
-  color: black;
-  text-align: left;
-  margin-left: 30px;
-  font-size: 30px;
-  padding-top: 15px;
-  font-style: normal;
-  display: block;
-}
-.aboutme p{
-  color:black;
-  text-align: left;
-  font-size: 50px;
-  margin-left: 30px;
-  margin-right: 18px;
-  margin-top: 8px;
-  font-size: 18px;
-  font-style: normal;
-  display: block;
-}
-.theservice{
-scroll-behavior: smooth;
-border-radius: 5px;
-/* padding-left: 5px; */
-height: 200px;
-width: relative;
-/* position: absolute; */
-background:red; 
-text-align: left;
-margin-left:80px;
-margin-right: 80px; 
-margin-bottom: 30px;
-} 
-/* .theservice{
-  height: 400px;
-  width: relative;
-  background: red ; 
-  scroll-behavior: smooth;
-  text-align: left;
-  position: absolute; 
-  margin-left: 200px;
-  margin-right: 500px;
-  margin-top: 350px;
-  border-radius: 25px;
-}  */
-/*
-#contact{
-  height: 200px;
-  width: 200px;
-  background: #a0c607;
-  scroll-behavior: smooth;
-} */
 
 
 
