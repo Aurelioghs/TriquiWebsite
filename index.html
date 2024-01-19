@@ -15,10 +15,18 @@
 </head>
 
 <body>
-  <div class="intro">
-    <nav>
-      <a href="#" class="Triqui-interpreter"> &nabla; Triqui</a>
-    </nav>
+  <!-- Create a Navbar for Navegation -->
+  <div class="NavBar">
+      <a href="#Home" class="TriquiLogo"> &nabla; Triqui</a>
+    <!-- Will create a NavBar including: -->
+    <div id = "nav">
+    <a href = "#about">About</a>
+    <a href = "#services">Services</a>
+  </div>
+  <a href = "javascript:void(0);" class ="navicon" onclick = "navFunction">
+  <i class = "fa fa-bars"></i>
+</a>
+</div>
   </div>
 
   <div class="myImage">
@@ -42,6 +50,17 @@
     </button>
   </div>
 
-</body>
+<script>
+function navFunction(){
+var x = document.getElementById("nav");
+if(x.style.display === "block"){
+x.style.display = "none";
+}else{
+x.style.display = "block";
+  }
+}
+</script>
 
+
+</body>
 </html>
